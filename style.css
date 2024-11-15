@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+.topo{
+height: 5rem;
+width: 101.05%;
+background-color: rgb(107, 0, 134);
+margin-top: -1.33rem;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+margin-left: -0.49rem;
+margin-right: -0.50rem;
+text-align: center;
+}
+
+.topo:hover{
+   box-shadow: 0px 0px 5px 5px rgb(123, 18, 158);
+ }
+
+
+.nome{
+    padding-top: 1.5rem;
+    color: white;
+    font-family: poppins;
+}
+.nome:hover{
+    color: rgb(199, 126, 255);
+
+}
+
+main{
+    font-family: poppins;
+    margin-top: 3rem;
+    border-radius: 30px;
+    background-color: rgb(107, 0, 134);
+    height: 30rem;
+    display: flex;
+    align-content:center;
+    height: 30rem;
+}
+
+.skills{
+    position: relative;
+    left: -4.5cm;
+    margin-top: 15rem;
+    color: white;
+    padding-top: 1rem;
+    margin-left:2rem;
+    margin-bottom: 10%;
+    height: 10rem;
+}
+
+.wskill{
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(150, 97, 200);
+    height: 3rem;
+    width: 11rem;
+}
+
+.wskill:hover{
+    background-color:  rgb(159, 107, 208);
+
+}
+
+.imgs{
+    height: 3rem;
+
+}
+
+.formacao{
+    position: relative;
+    left: -6cm;
+    color: white;
+    padding-top: 1rem;
+    margin-top: 15rem;
+    margin-left:-15rem;
+    margin-bottom: 10%;
+    height: 10rem;
+    padding-left: 27%;
+}
+
+.wforma{
+    color: white;
+    margin-left: 0rem;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(150, 97, 200);
+    height: 3rem;
+    width: 25rem;
+}
+
+.wforma:hover{
+background-color:  rgb(159, 107, 208);
+}
+
+.links{
+    color: white;
+ text-decoration: none;
+}
+
+.sobre{
+    position: relative;
+    left: -6cm;
+    margin-top: 15rem;
+    color: white;
+    padding-top: 1rem;
+    margin-left: -18rem;
+    margin-bottom: 10%;
+    height: 10rem;
+    padding-left: 27%;
+}
+
+.wsobre{
+    color: white;
+    margin-left: 0rem;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(150, 97, 200);
+    height: 3rem;
+    width: 38rem;
+}
+
+.wsobre:hover{
+background-color:  rgb(159, 107, 208);
+}
+
+.logo{
+    position: relative;
+    left: 40rem;
+    top: 0.5cm;
+    height: 5cm;
+    border-radius: 100px;
+    border-color: white;
+    border-style: solid;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 15px 4px rgba(255,255,255,1);
+}
+
+
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 2.35cm;
+    color: white;
+    background-color: rgb(159, 107, 208);
+}
