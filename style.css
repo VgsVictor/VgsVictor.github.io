@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bd6b29;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+
+
+body{
+    background-color: rgb(22, 22, 22);
+    overflow-x: hidden;
+    overflow-y:visible;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,#4e3261, #170c20);
+    height: 2rem;
+    margin-left: 19.50rem;
+    margin-left: 19.50rem;
+    margin-top: -0.20cm;
+}
+
+.nome{
+    color: white;
+    font-size: 15pt;
+    font-family: poppins;
+}
+
+.lateral{
+    position: fixed;
+    background: linear-gradient(to right,#4e3261, #170c20);
+    display: flex;
+    justify-content: center;
+    margin-left: -0.20cm;
+    width: 20rem;
+    height: 100vh;
+
+}
+
+.foto{
+    
+    align-items: center;
+    position: relative;
+    top: 4rem;
+    left: 4.1rem;
+    height: 170px;
+    border-radius: 600px;
+    border-color: white;
+    border-style:solid;
+}
+
+@keyframes borda-pisca {
+    0% { border-color: rgb(59, 8, 75); }
+    25% {box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);}
+    100% { border-color: rgb(131, 41, 158);  }
+}
+.foto:hover{
+    animation: borda-pisca 2s infinite;
+    border-style:solid;
+}
+
+.nomebaixo{
+    margin-left: -10rem;
+    margin-right: -28rem;
+    margin-bottom: 53rem;
+    top: 14rem;
+    left: 5.5rem;
+    position:relative;
+    color: white;
+    font-size: 22pt;
+    font-family: poppins;
+}
+
+.redesocial{
+    display: flex;
+    position: relative;
+    left: 26rem;
+    top: 49rem;
+    margin-bottom: 58.2rem;
+}
+
+.redecss{
+    width: 40px;
+}
+
+.redecss:hover{
+    border-radius: 20%;
+    background: linear-gradient(to right,#f18841, #520096);
+    box-shadow: 0px 0px 5px -1px rgb(0, 0, 0);
+    width: 42px;
+}
+
+.menu{
+    font-size: 15pt;
+    color: white;
+    font-family: poppins;
+    position: relative;
+    top: 28rem;
+    left:26.5rem;
+    margin-left: -10rem;
+}
+
+.menu:hover{
+    color: #f18841;
+}
+
+.menulogos{
+    position: relative;
+    top: 7px;
+    width:2.8rem;
+}
+
+.copy{
+    position:relative;
+    top: 53rem;
+    left: -3rem;
+    font-size: 12pt;
+    color: white;
+    font-family: poppins;
+    margin-left: 18rem;
+}
+
+.conteudos{
+    display: flex;
+    align-items: center;
+    margin-right:-0.5rem;
+    margin-left: 19.50rem;
+    padding-bottom: 100vh;
+    color: white;
+    background: radial-gradient(#71498b, #241133);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.sectionnome{
+    position: relative;
+    top: 20rem;
+    left: 25rem;
+    color: white;
+    font-size: 50pt;
+    font-family: poppins;
+    margin-right: -10rem;
+}
+.sectionnome2{
+    position: relative;
+    top: 25rem;
+    left: -13rem;
+    color: white;
+    font-size: 35pt;
+    font-family: poppins;
+    animation: desenvolvedorini 10s infinite;
+}
+
+.conteudos2{
+    margin-top:-2rem;
+    margin-right:-0.5rem;
+    margin-left: 19.50rem;
+    margin-bottom: -70rem;
+    padding-bottom: 100vh;
+    color: white;
+    background-color: #000000;
+}
+
+
+.sectionskill{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+font-family: poppins;
+font-size: 30pt;
+}
+
+.tracinhoskill{
+    position: relative;
+    top: 10px;
+    background-color:#f18841;
+    width: 300px;
+    height: 5px;
+}
+
+.skilllogo{
+    position: relative;
+    top: -5rem;
+    left: 65rem;
+    width: 400px;
+}
+
+.escrita{
+    font-size: 18pt;
+    position: relative;
+    margin-right: 30rem;
+    top: -20rem;
+    left: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linguagens{
+    padding-top: 5rem;
+    position: relative;
+    top: -19rem;
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cssa{
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    display: flexbox;
+    align-content: center;
+}
+
+.html{
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.python{
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.cssa:hover, .html:hover, .python:hover, .c:hover{
+    background-color: rgb(92, 92, 92);
+    border-color: #bd6b29;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.lingcss{
+    width: 200px;
+    position: relative;
+    left: 5rem;
+}
+
+.linghtml{
+    width: 230px;
+    position: relative;
+    left: 5rem;
+    top: 0.80rem;
+}
+
+.lingc{
+    width: 200px;
+    position: relative;
+    left: 6rem;
+}
+
+.lingpy{
+    width: 200px;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+
+
+.conteudos3{
+    padding-top: 10px;
+    margin-top:-45rem;
+    margin-right:-0.5rem;
+    margin-left: 19.50rem;
+    padding-bottom: 100vh;
+    position:static;
+    color: white;
+    background-color: #1d1d1d;
+}
+
+.texto2{
+    font-size: 25pt;
+    position: relative;
+    margin-right: 30rem;
+    top: 5rem;
+    left: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3{
+    font-size: 20pt;
+    position: relative;
+    margin-right: 30rem;
+    top: 3.5rem;
+    left: 3rem;
+    color: rgb(255, 140, 74);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionforma{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+font-family: poppins;
+font-size: 30pt;
+}
+
+
+
+
+
+@keyframes desenvolvedorini {
+    0% { color: rgb(255, 255, 255);}
+    25% {color: #f18841;}
+    75% {color: rgb(252, 96, 96);}
+    100% {color: rgb(255, 255, 255);}
+}
+
