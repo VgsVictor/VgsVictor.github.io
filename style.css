@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 
+
+
+.logoiccoon{
+    position: relative;
+    height: 60px;
+    top: 25px;
+    left: -70%;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -162,7 +171,7 @@ header{
 .sectionnome2{
     position: relative;
     top: 25rem;
-    left: -13rem;
+    left: -5rem;
     color: white;
     font-size: 35pt;
     font-family: poppins;
